@@ -45,6 +45,11 @@ func MakeNumbers() [3]int {
 
 func InputNumbers() [3]int {
 	var rst [3]int
+	for i := 0; i < 3; i++{
+		fmt.Println("0~9 사이의 숫자 3개를 입력하세요.")
+		var no int 
+		_, err :	dasdf= fmt.Scanf("%d\n", &no)
+	}
 
 	for {
 		fmt.Println("겹치지 않는 0~9 사이의 숫자 3개를 입력하세요.")
