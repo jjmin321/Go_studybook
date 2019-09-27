@@ -70,3 +70,19 @@ func main() {
 	}
 	fmt.Print(m["jeongmin"])
 }*/
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("3 factorial: ", factorial(3))
+	fmt.Println("12 factorial: ", factorial(12))
+}
+func factorial(n int) int {
+	if n == 1 {
+		return 1
+	} else {
+		return n * factorial(n-1)
+	}
+}
