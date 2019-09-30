@@ -76,13 +76,21 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("3 factorial: ", factorial(3))
-	fmt.Println("12 factorial: ", factorial(12))
+	money := 0
+	money = Deposit(money)
+	money = Withdraw(money)
+	BalanceInquiry(money)
 }
-func factorial(n int) int {
-	if n == 1 {
-		return 1
-	} else {
-		return n * factorial(n-1)
-	}
+
+func Deposit(money int) int {
+	return money + 5000
+
+}
+
+func Withdraw(money int) int {
+	return money - 2000
+}
+
+func n BalanceInquiry(n int) {
+	fmt.Print(n)
 }
