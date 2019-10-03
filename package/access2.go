@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sex "package/lib"
+	alias "package/lib"
 	_ "package/lib2"
 )
 
@@ -11,5 +11,5 @@ func main() {
 	//별칭 사용
 	//빈 식별자 사용
 
-	fmt.Println("10보다 큰 수? : ", sex.CheckNum(20))
+	fmt.Println("10보다 큰 수? : ", alias.CheckNum(20))
 }
