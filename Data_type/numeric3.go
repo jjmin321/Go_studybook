@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("ex4 : ", num4)
 	fmt.Println("ex4 : ", num4-0.1)
 	fmt.Println("ex4 : ", float32(num4-0.1))
-	fmt.Println("ex4 : ", float64(num4-0.1))
+	fmt.Println("ex4 : ", float64(num4-0.1)) //caution!
 	fmt.Println("ex5 : ", num5)
 	fmt.Println("ex6 : ", num6)
 	fmt.Println("ex7 : ", num7)
