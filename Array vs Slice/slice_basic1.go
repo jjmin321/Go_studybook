@@ -38,7 +38,7 @@ func main() {
 	//ex2
 	var slice5 []int = make([]int, 5, 10)
 	var slice6 = make([]int, 5)
-	slice7 := make([]int, 5, 100)
+	slice7 := make([]int, 5, 100) //best thing
 	slice8 := make([]int, 5)
 
 	slice6[2] = 7 //삽입
