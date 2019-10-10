@@ -1,4 +1,5 @@
-// 이 디렉토리는 자바 프로그래밍 수업시간 문제를 GO언어로 번역하는 파일들을 모아놓은 디렉토리입니다.
+// 이 디렉토리는 JAVA 코딩문제를 GO로 직접 번역시킨 파일들을 모아놓은 디렉토리입니다.
+// 디렉토리 이름이 _로 시작하는 이유는 _는 GO언어에서 skip한다는 뜻과 같으므로 가볍게 보고 가시면 된다는 말입니다 ^_^
 
 /*
 밑변과 높이 정보를 저장할 수 있는 Triangle클래스를 정의하자.(그 안에 적절한 생성자도 정의하자.)
@@ -26,5 +27,5 @@ func (a Wide) triangle() float32 { //(a Wide)는 value receiver로 a구조체의
 
 func (a *Wide) change() { //(a *Wide)는 pointer receiver로 구조체의 값을 변경할 수 있음 (pointer로 접근했을 때만 구조체의 값 변경 가능)
 	a.bottom = 12
-	a.height = 23
+	a.height = 12
 }
