@@ -9,7 +9,7 @@ func main() {
 	//참조 타입이므로 비교 연산자 사요 불가능
 	//특징 : 참조타입(Key)로 사용이 불가능, 값으로는 모든 타입 사용 가능
 	//make 함수 및 축약(리터럴)로 초기화 가능
-	//순서 없음
+	//Slice는 range를 돌릴 때 (인덱스, 값) 이고 Map은 range를 돌릴 때 (키,값) 임 . 즉 Map은 인덱스(순서)가 없고 키로 구분하므로 출력순서가 무작위임.
 
 	//ex1
 	var map1 map[string]int = make(map[string]int) //정석

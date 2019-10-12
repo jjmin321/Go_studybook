@@ -12,7 +12,7 @@ func main() {
 	case 1, 3, 5: //if i is 1, 3, 5
 		fmt.Println("a -> ", a, "는 홀수")
 	}
-
+	
 	//ex2
 	switch e := "go"; e {
 	case "java":

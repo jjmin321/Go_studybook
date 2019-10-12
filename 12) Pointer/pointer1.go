@@ -1,3 +1,5 @@
+// 출력을 해보고 식과 답을 비교해보시면 포인터의 기초에 대해 이해하기 쉽습니다.
+
 package main
 
 import "fmt"
@@ -13,7 +15,7 @@ func main() {
 	//nil로 초기화 (nil == 0)
 
 	//ex1
-	var a *int            //방법1 (nil로 초기화됨) 주관적으로 더 선호
+	var a *int            //방법1 (nil로 초기화됨)
 	var b *int = new(int) //방법2 (주소값을 가짐) 객관적으로 더 선호
 
 	fmt.Println(a) // <nil>
