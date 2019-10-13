@@ -1,6 +1,6 @@
 I've have been using this space since April 2019. This files are used for my GOLANG study In addition would like to using for others GOLANG study.
-_StudyBook files will provide you a lot of golang knowledge.
-_WorkBook files will provide you a lot of golang questions.
+_StudyBook - This space is provide you a lot of golang grammar and skill. You can study golang through this space. I'd like to others study golang with this space exactly.
+_WorkBook - This space is provide you a lot of golang questions. You can check your golang skill through this space. 
 
 _StudyBook 파일은 go언어 지식을 키우는데 많은 도움을 제공합니다.
 
