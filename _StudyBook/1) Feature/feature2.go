@@ -10,8 +10,7 @@ func main() {
 
 	//ex1
 	for i := 0; i <= 10; i++ {
-		fmt.Print("ex1: ")
-		fmt.Println(i)
+		fmt.Println("It's for grammer")
 	}
 
 	//ex2
