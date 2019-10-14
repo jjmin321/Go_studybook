@@ -8,9 +8,8 @@ func main() {
 	//Boolean  -> 1, 0 can't use
 	//소괄호 사용 X
 
-	var a int = 20
-
 	// 1. if 조건문을 사용하여 a가 15이상이라면 15 or more 을 출력하는 프로그램을 만드세요.
+	var a int = 20
 
 	fmt.Println("15 or more")
 

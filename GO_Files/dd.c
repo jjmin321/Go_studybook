@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     node* tail = NULL;
@@ -27,4 +27,12 @@ void insert(node ** tail, int input){
         newNode -> next = (*tail)->next;
         (*tail)->next=newNode;
     }
+}*/
+
+#include <stdio.h>
+
+int main() {
+    node *tail = NULL;
+    node2* head = (node2*)malloc(sizeof(node2));
+    
 }
