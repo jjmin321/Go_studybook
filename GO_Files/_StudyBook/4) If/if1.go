@@ -12,7 +12,7 @@ func main() {
 
 	//ex 1
 	if a >= 15 {
-		fmt.Println("15or more")
+		fmt.Println("15 or more")
 	}
 
 	/*
