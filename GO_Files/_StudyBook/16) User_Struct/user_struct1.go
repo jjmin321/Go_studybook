@@ -7,10 +7,11 @@ type Car struct {
 	color string
 	price int64
 	tax   int64
+	//  Price func() 	//리시버 메소드 Price
 }
 
 //구조체 <-> 메소드 바인딩
-func (c Car) Price() int64 {
+func (c Car) Price() int64 { //만약 리시버 메소드 명이 Price가 아니라 price라면 에러가 난다.
 	return c.price + c.tax
 }
 
@@ -31,7 +32,7 @@ func main() {
 
 	fmt.Println("bmw : ", bmw, &bmw)
 	fmt.Println("benz : ", benz, &benz)
-	fmt.Println("ex2 : ", bmw.Price())	//객체 지향 
+	fmt.Println("ex2 : ", bmw.Price())  //객체 지향
 	fmt.Println("ex2 : ", benz.Price()) //객체 지향
 
 	// Car타입의 이름, 색, 가격, 세금을 정의하고 Price라는 리시버 메소드(클래스)를 선언해서 차의 총 가격을 알 수 있게끔 하여 차이름.Price()를 사용하여 그 차의 가격을 알 수 있게 만든 객체지향 프로그램.
