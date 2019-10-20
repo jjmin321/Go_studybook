@@ -1,15 +1,6 @@
 package main
 
-import "fmt"
-
-type totCost func(int, int) int
-
-func describe(cnt, price int, fn totCost) {
-	fmt.Printf("cnt : %d, price : %d, orderPrice : %d", cnt, price, fn(cnt, price))
-}
-
 func main() {
-
 	//GO -> 객체 지향 타입을 구조체로 정의한다. (클래스, 상속 개념 없음)
 	//객체 지향 -> 클래스(속성 : 멤버변수, 기능(상태 : 메소드)) : 코드의 재사용성, 코드의 관리가 용이, 신뢰성이 높은 프로그래밍
 	//클래스가 없는데 객체 지향 언어일까? -> 맞다
@@ -19,11 +10,5 @@ func main() {
 	//사용자 정의 타입 : 구조체, 인터페이스, 기본 타입(int, float, string...) , 함수
 	//구조체와 -> 메소드 연결을 통해서 타 언어의 클래스 형식처럼 사용 가능하다 (객체지향이 맞다)
 	//클래스는 구조체다. 구조체는 클래스가 아니다. 클래스는 구조체와 메소드의 연결과 같다.
-	//함수 사용자 정의 타입
-	var orderPrice totCost
-	orderPrice = func(cnt, price int) int {
-		return (cnt * price) + 100000
-	}
 
-	describe(5, 50000, orderPrice)
 }
