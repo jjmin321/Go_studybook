@@ -9,7 +9,7 @@ func main() {
 	//Go only offer for
 	//study various usage
 
-	//ex1 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+	//ex1
 	for i := 0; i < 5; i++ {
 		fmt.Println("ex 1 : ", i)
 	}
