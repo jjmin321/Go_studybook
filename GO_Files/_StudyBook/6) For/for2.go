@@ -21,14 +21,14 @@ func main() {
 	fmt.Println("ex2: ", sum2)
 
 	//ex3
-	sum3, i := 0, 0
+	sum3, j := 0, 0
 
 	for { //same as while
-		if i > 100 {
+		if j > 100 {
 			break
 		}
-		sum3 += i
-		i++
+		sum3 += j
+		j++
 	}
 	fmt.Println("ex3: ", sum3)
 
