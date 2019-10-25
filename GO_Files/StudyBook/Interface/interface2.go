@@ -26,12 +26,13 @@ func main() {
 	hotdog1 := Behavior(dog1) //hotdog1은 dog1의 인터페이스입니다.
 	hotdog1.bite()            //use interface
 	dog1.bite()               //use receiver method
+	dog2 := Dog{"je", 85}
 
 	//ex2
-	slicedog := []Behavior{dog1}
-	
+	slicedog := []Behavior{dog1, dog2}
+
 	for i, v := range slicedog {
-		fmt.Println(i, v)
+		fmt.Println(i, "번째", v)
 	}
 
 	//값 형태로 실행
