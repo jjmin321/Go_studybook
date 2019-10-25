@@ -1,3 +1,5 @@
+package main
+
 int main() {
 	char infix[100] = {0, };
 	char postfix[100] = {0, };
@@ -8,5 +10,7 @@ int main() {
 	infixToPostfix(infix, postfix);
 	printf("%s\n", postfix);
 
-	printf("\n계산결과 : %.3f", eval(postfix));
+	printf("\n계산결과 : %.3f", eval(postfix)); 
 }
+
+void 
