@@ -10,16 +10,27 @@ func main() {
 
 	//ex1
 	var a interface{}
+
 	printContents(a)
+
 	a = 7.5
+
 	printContents(a)
+
 	a = "GO"
+
 	printContents(a)
+
 	a = false
+
 	printContents(a)
+
 	a = nil
+
 	printContents(a)
+
 	a = map[int]int{1: 2, 2: 3, 3: 4}
+
 	printContents(a)
 }
 
