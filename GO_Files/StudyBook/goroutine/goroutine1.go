@@ -37,4 +37,11 @@ func main() {
 	//단점 : 구현하기 어려움, 테스트 및 디버깅 어려움, 전체 프로세스의 사이드이펙트 , 성능 저하, 동기화 코딩 반드시 숙지
 	//      데드락(교착 상태)...
 
+	exe1() //가장 먼저 실행(일반적인 실행 흐름)
+
+	fmt.Println("Main Routine start!", time.Now())
+	go exe2()
+	go exe3()
+	time.Sleep(1 * time.Second)
+	fmt.Println("Main Routine End", time.Now())
 }
