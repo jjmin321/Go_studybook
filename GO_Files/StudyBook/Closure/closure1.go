@@ -26,5 +26,5 @@ func main() {
 	}
 
 	r2 := sum(10)
-	+fmt.Println("ex2 : ", r2)
+	fmt.Println("ex2 : ", r2)
 }
