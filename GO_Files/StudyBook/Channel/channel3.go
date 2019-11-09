@@ -8,7 +8,6 @@ func main() {
 	//채널(channel)
 
 	//ex1(동기: 버퍼 미사용)
-
 	ch := make(chan bool)
 	cnt := 6
 
