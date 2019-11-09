@@ -26,7 +26,6 @@ func main() {
 	result1 := <-c
 	result2 := <-c
 	result3 := <-c
-
 	fmt.Println(result1)
 	fmt.Println(result2)
 	fmt.Println(result3)
