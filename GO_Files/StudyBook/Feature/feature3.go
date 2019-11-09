@@ -1,4 +1,6 @@
-package main
+//6-3
+
+ackage main
 
 import "fmt"
 
