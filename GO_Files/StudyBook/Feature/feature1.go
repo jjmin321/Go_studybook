@@ -1,3 +1,5 @@
+//6-1
+
 package main
 
 import "fmt"
