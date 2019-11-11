@@ -7,11 +7,12 @@ import "fmt"
 func sum(cnt int) <-chan int {
 	sum := 0
 	tot := make(chan int)
-
-	for i := 1; i < cnt; i++ {
-		sum += i
-	}
-	tot <- sum
+	go func() {
+		for i := 1; i < cnt+1; i++ {
+			sum += i
+		}
+		tot <- sum
+	}()
 
 	return tot
 }
