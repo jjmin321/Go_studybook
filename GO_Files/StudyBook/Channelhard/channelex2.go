@@ -11,7 +11,7 @@ func sum(cnt int) <-chan int {
 		for i := 1; i < cnt+1; i++ {
 			sum += i
 		}
-		tot <- sum
+		tot <- sum //tot가 sum의 값을 수신하고 다시 발신을 해야하는데 goroutine을 사용하지 않으면 발신할 곳이 당장 없어서 데드락 상태가 일어남.
 	}()
 
 	return tot
