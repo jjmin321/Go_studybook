@@ -35,7 +35,7 @@ func main() {
 		go func() {
 			c.increment()
 			done <- true
-			runtime.Gosched() //cpu 양보
+			//	runtime.Gosched() //cpu 양보
 		}()
 	}
 
