@@ -1,7 +1,5 @@
 //22-2
 
-//22-1
-
 package main
 
 import (
