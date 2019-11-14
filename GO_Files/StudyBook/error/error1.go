@@ -23,6 +23,6 @@ func main() {
 		log.Fatal(err.Error()) //방법 1
 		// log.Fatal(err) //방법2
 	}
-	fmt.Println("===============")
-	fmt.Println(f.Name())
+	fmt.Println("===============") //log.Fatal로 종료돼서 실행되지 않음.
+	fmt.Println(f.Name())          //log.Fatal로 종료돼서 실행되지 않음.
 }
