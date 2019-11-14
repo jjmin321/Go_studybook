@@ -13,7 +13,7 @@ func notZero(n int) (string, error) { //메소드 리턴 값 error 타입 중요
 		return s, nil
 	}
 
-	return "", fmt.Errorf("%d을 입력했습니다. 에러 발생!", n)
+	return "", fmt.Errorf("%d을 입력했습니다. 에러 발생!", n) //Errorf 잘 안 써요~ 23-4파트가 중요함!
 }
 
 func main() {
