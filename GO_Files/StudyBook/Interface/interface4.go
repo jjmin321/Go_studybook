@@ -35,13 +35,13 @@ func main() {
 	//ex1
 
 	a := Dog{"poll", 10} // Dog타입의 변수를 선언함.
-	skill(a)             //Dog타입에 맞는 메소드가 있다면 알아서 Dog타입 애들은 act인터페이스를 가짐. go의 어마무시한 덕타이핑 프로그래밍으로 인하여.
+	act(a)               //Dog타입에 맞는 메소드가 있다면 알아서 Dog타입 애들은 act인터페이스를 가짐. go의 어마무시한 덕타이핑 프로그래밍으로 인하여.
 	b := Dog{"je", 85}
-	skill(b)
+	act(b)
 	c := Cat{"dark", 15}
-	skill(c)
+	act(c)
 	d := Cat{"white", 13}
-	skill(d)
+	act(d)
 
 	//
 	//b := Dog{"je", 85}

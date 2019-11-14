@@ -21,6 +21,8 @@ func main() {
 	f, err := os.Open("unnamedfile") //err
 	if err != nil {
 		log.Fatal(err.Error()) //방법 1
+		// log.Fatal(err) //방법2
 	}
+	fmt.Println("===============")
 	fmt.Println(f.Name())
 }
