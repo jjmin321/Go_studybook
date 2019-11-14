@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
+	"sync/atomic"
 )
 
 func main() {
@@ -29,7 +30,8 @@ func main() {
 		//mutex.Lock()
 		wg.Add(1)
 		go func(n int) {
-			cnt++
+			// cnt++
+			atomic.AddInt64(&cnt, 1)
 			wg.Done()
 			//mutex.Unlock()
 		}(i)
@@ -39,11 +41,15 @@ func main() {
 		// mutex.Lock()
 		wg.Add(1)
 		go func(n int) {
-			cnt--
+			// cnt--
+			atomic.AddInt64(&cnt, -1)
 			wg.Done()
 			// mutex.Unlock()
 		}(i)
 	}
 	wg.Wait() //모든 고루틴이 정상적으로 다 실행될 때까지 대기(Add(7000) == Done(7000) 횟수 같아야 함, 이 문법 사용하기 위해 Add와 Done사용)
-	fmt.Println("WaitGroup End! >>>>>", cnt)
+
+	finalCnt := atomic.LoadInt64(&cnt)
+	// fmt.Println("WaitGroup End! >>>>>", cnt) //방법 1
+	fmt.Println("WaitGroup End >>>>>", finalCnt)
 }
