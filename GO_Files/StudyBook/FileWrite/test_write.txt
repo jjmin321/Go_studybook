@@ -1,0 +1,5 @@
+MNOPQHello Golang!
+ File Write Test! - 1
+
+Hello Golang! 
+ File Write Test! - 3
