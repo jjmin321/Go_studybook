@@ -17,7 +17,8 @@ func errCheck1(e error) {
 //에러 체크 방식2
 func errCheck2(e error) {
 	if e != nil {
-		panic(e)
+		fmt.Println(e)
+		return
 	}
 }
 
