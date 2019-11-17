@@ -1,0 +1,3 @@
+Hello golang!
+ File Write Test!
+What's your name!
