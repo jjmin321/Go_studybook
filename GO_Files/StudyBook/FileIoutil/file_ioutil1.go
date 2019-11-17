@@ -27,10 +27,13 @@ func main() {
 	//읽기 : 4, 쓰기 : 2, 실행 : 1
 	//소유자, 그룹, 기타 사용자 순서 (777 -> 모두 읽기, 쓰기, 실행 가능)
 	//https://golang.org/pkg/os/#FileMode
+
+	//파일 쓰기
 	err := ioutil.WriteFile("Users/jejeongmin/documents/go/src/go_studybook/go_files/studybook/fileioutil/test_write1.txt", []byte(s), os.FileMode(0444))
 	// go에서는 퍼미션(소유자 , 그룹, 기타 사용자 순서로 읽기, 쓰기, 실행 권한)을 줄 때 앞에 0붙힘.
 	errCheck(err)
 
+	//파일 읽기
 	data, err := ioutil.ReadFile("users/jejeongmin/documents/go/src/go_studybook/go_files/studybook/fileioutil/test_write1.txt")
 	errCheck(err)
 	fmt.Println("≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠")
