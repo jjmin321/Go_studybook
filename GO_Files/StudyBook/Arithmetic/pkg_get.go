@@ -4,9 +4,9 @@
 package main
 
 import (
-	_ "fmt"
+	"fmt"
 
-	_ "github.com/tealeg/xlsx"
+	"github.com/tealeg/xlsx"
 )
 
 func main() {
@@ -14,5 +14,23 @@ func main() {
 	//2가지 방법
 	// 1. import 선언 후 폴더 이동 후 go get 설치 -> 사용
 	// 2. go get 패키지 주소 설치 -> 선언
+
+	//선언 후 go get 설치 예제(엑셀 파일 읽기)
+	xfile := "/Users/jejeongmin/Documents/go/src/go_studybook/go_files/studybook/arithmetic/sample.xlsx"
+
+	xlFile, err := xlsx.OpenFile(xfile)
+
+	if err != nil {
+		panic("Excel Loads Error!")
+	}
+
+	for _, sheet := range xlFile.Sheets {
+		for _, row := range sheet.Rows {
+			for _, cell := range row.Cells {
+				text := cell.String()
+				fmt.Printf("%s\t", text)
+			}
+		}
+	}
 
 }
