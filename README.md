@@ -1,10 +1,10 @@
 # go_studybook
 
-2019년 4월에 (https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) 게시물을 보고 나서 Go공부를 시작하게 되었습니.
+2019년 4월에 (https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) 게시물을 보고 나서 Go언어 공부를 시작하게 되었습니다.
 
-모든 파일은 공부하면서 정리해둔 파일이고 또 다른 사람들의 공부에 도움되었으면 좋겠습니다.
+모든 파일은 공부하면서 다른 입문자들의 GO언어 공부에 도움되었으면 좋겠다는 마음으로 정리해둔 파일입니다.
 
-GO_Files/StudyBook - 이 경로는 GO언어 문법과 다양한 사용법, 기술에 대해 알려줍니다. 이 경로를 통해 공부를 할 수 있습니다.
+GO_Files/StudyBook - 이 경로는 GO언어 문법과 다양한 사용법, 기술에 대해 알려줍니다. 이 경로를 통해 실습을 할 수 있습니다.
 
 GO_Files/WorkBook - 이 경로는 GO언어 문제를 제공합니다. 이 경로를 통해 복습을 할 수 있습니다 (아직 덜 만들었습니다).
 
