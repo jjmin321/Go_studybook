@@ -15,7 +15,7 @@ I've have been using this space since April 2019 after see this : (https://mediu
 This files are used for my GOLANG study In addition would like to using for others GOLANG study.
 
 
-GO_Files/StudyBook - This space is provide you a lot of golang grammar and skill. You can study golang through this space.
+GO_Files/StudyBook - This space is provide you a lot of golang syntax and skill. You can study golang through this space.
 
 
 GO_Files/WorkBook - This space is provide you a lot of golang questions. You can check your golang skill through this space. 
