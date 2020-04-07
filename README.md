@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/jjmin321/Go_studybook?label=Forks)
 ![GitHub stars](https://img.shields.io/github/stars/jjmin321/Go_studybook?style=Stars)
 ![GitHub issues](https://img.shields.io/github/issues-raw/jjmin321/Go_studybook)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jjmin321/Go_studybook)](https://goreportcard.com/report/github.com/jjmin321/Go_studybook)
+![Go Report Card](https://goreportcard.com/badge/github.com/jjmin321/Go_studybook)(https://goreportcard.com/report/github.com/jjmin321/Go_studybook)
 
 </div>
 
