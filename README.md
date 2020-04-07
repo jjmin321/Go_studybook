@@ -1,3 +1,13 @@
+<div align="center">
+  
+![GitHub contributors](https://img.shields.io/github/contributors/jjmin321/Go_studybook)
+![GitHub forks](https://img.shields.io/github/forks/jjmin321/Go_studybook?label=Forks)
+![GitHub stars](https://img.shields.io/github/stars/jjmin321/Go_studybook?style=Stars)
+![GitHub issues](https://img.shields.io/github/issues-raw/jjmin321/Go_studybook)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jjmin321/Go_studybook)](https://goreportcard.com/report/github.com/jjmin321/Go_studybook)
+
+</div>
+
 # 🚀 Go_공부한 내용 
 
 🔖 2019년 4월에 (https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) 게시물을 보고 나서 Go언어 공부를 시작하게 되었습니다.
