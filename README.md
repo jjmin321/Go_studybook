@@ -18,7 +18,7 @@
 
 👨‍💻 GO_Files/WorkBook - 이 경로는 GO언어 문제를 제공합니다. 이 경로를 통해 복습을 할 수 있습니다 (아직 덜 만들었습니다).
 
-ℹ️ 많은 도움을 받은 출처 : https://niceman.tistory.com
+ℹ️ 도움을 받은 분의 블로그 : https://niceman.tistory.com
 
 # 👨‍🎓 Go_앞으로의 학습 목표 👨‍🎓
 
