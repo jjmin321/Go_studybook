@@ -1,1 +1,0 @@
-This space is provide you a lot of golang questions. You can check your golang skill through this space. I'd like to others study golang with this space exactly.
