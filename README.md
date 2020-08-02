@@ -16,7 +16,7 @@
 5. 고루틴은 OS에서 관리하는 경량 스레드보다 더 가볍기 때문에 CPU 코어갯수와 무관하게 수백, 수천만 고루틴을 작성해도 성능에 문제가 발생하지 않습니다.
 6. 파일 언어인 덕분에, 속도가 느린 스크립트 언어에서 연산 퍼포먼스가 필요한 부분을 Go로 대체해 넣을 수도 있습니다.
 
-# 🔑 Go 키워드
+# 🔑 Go 키워드 총 25가지
 break, default, func, interface, select, case, defer, go, map, struct, chan, else, goto, package, switch, const, fallthrough, if, range, type, continue, for, import, return, var
 
 # 📖 Go 터미널 명령어
@@ -30,6 +30,16 @@ break, default, func, interface, select, case, defer, go, map, struct, chan, els
 - gorename : 변수, 함수 등을 type-safe 방식으로 이름 변경
 - go generate : 코드 생성기를 호출하는 표준 방식
 
+# Go로 사용한 서비스
+- Google
+- NetFlix
+- Twitch
+- Twitter
+- Dropbox
+- Uber
+- Docker
+- MongoDB
+- Paypal
 
 # 🚀 Go_studybook 
 
