@@ -1,13 +1,3 @@
-<div align="center">
-  
-![GitHub contributors](https://img.shields.io/github/contributors/jjmin321/Go_studybook)
-![GitHub forks](https://img.shields.io/github/forks/jjmin321/Go_studybook?label=Forks)
-![GitHub stars](https://img.shields.io/github/stars/jjmin321/Go_studybook?style=Stars)
-![GitHub issues](https://img.shields.io/github/issues-raw/jjmin321/Go_studybook)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jjmin321/Go_studybook)](https://goreportcard.com/report/github.com/jjmin321/Go_studybook)
-
-</div>
-
 # 🔥 Go를 사용한 객체지향 프로그래밍
 https://jjmin321.github.io/development/GO를-사용한-객체지향-프로그래밍/
 
