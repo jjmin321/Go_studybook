@@ -1,3 +1,11 @@
+# 🚀 Go_studybook 
+
+🔖 2019년 4월에 (https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) 게시물을 보고 나서 Go언어 공부를 시작하게 되었습니다.
+
+📁 모든 파일은 공부하면서 다른 입문자들의 GO언어 공부에 도움되었으면 좋겠다는 마음으로 정리해둔 파일입니다.
+
+👨‍💻 GO_Files/StudyBook - GO언어에 존재하는 총 25개의 문법, 파일 입출력에 대한 다양한 예제들을 정리해뒀습니다.
+
 # 🔥 Go를 사용한 객체지향 프로그래밍
 https://jjmin321.github.io/development/GO를-사용한-객체지향-프로그래밍/
 
@@ -41,17 +49,3 @@ break, default, func, interface, select, case, defer, go, map, struct, chan, els
 - Docker
 - MongoDB
 - Paypal
-
-# 🚀 Go_studybook 
-
-🔖 2019년 4월에 (https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) 게시물을 보고 나서 Go언어 공부를 시작하게 되었습니다.
-
-📁 모든 파일은 공부하면서 다른 입문자들의 GO언어 공부에 도움되었으면 좋겠다는 마음으로 정리해둔 파일입니다.
-
-👨‍💻 GO_Files/StudyBook - GO언어에 존재하는 총 25개의 문법, 파일 입출력에 대한 다양한 예제들을 정리해뒀습니다.
-
-# 2019년 9월 학교에 신청한 도서들 
-- GO 마스터하기
-- GO언어 실전 테크닉   
-- 개발자를 위한 하룻밤에 읽는 GO 이야기
-- 디스커버리 GO언어
