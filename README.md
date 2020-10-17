@@ -23,7 +23,7 @@ https://jjmin321.github.io/development/GO를-사용한-객체지향-프로그래
 3. 객체지향 언어들과 표현 방식이 매우 다르다 
 	- 문법 자체는 익히기 쉽지만 Go로 제대로된 객체지향 프로그래밍을 하기 위해선 많은 숙련이 필요하다 
 4. 고루틴이라는 비동기 매커니즘을 제공하여 이벤트 처리 및 병렬 프로그래밍 작성이 쉽다
-  - 고루틴은 OS에서 관리하는 경량 스레드보다 더 가볍기 때문에 CPU 코어갯수와 무관하게 수백, 수천만 고루틴을 작성해도 성능에 문제가 발생하지 않는다
+	- 고루틴은 OS에서 관리하는 경량 스레드보다 더 가볍기 때문에 CPU 코어갯수와 무관하게 수백, 수천만 고루틴을 작성해도 성능에 문제가 발생하지 않는다
 
 # 🔑 Go 키워드 총 25가지
 break, default, func, interface, select, case, defer, go, map, struct, chan, else, goto, package, switch, const, fallthrough, if, range, type, continue, for, import, return, var
