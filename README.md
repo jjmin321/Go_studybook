@@ -6,8 +6,8 @@
 
 👨‍💻 GO_Files/StudyBook - GO언어에 존재하는 총 25개의 문법, 파일 입출력에 대한 다양한 예제들을 정리해뒀습니다.
 
-# 🔥 Go를 사용한 객체지향 프로그래밍
-https://jjmin321.github.io/development/GO를-사용한-객체지향-프로그래밍/
+# 🔥 Go와 객체지향 프로그래밍 언어의 차이점
+https://jjmin321.github.io/development/GO%EC%99%80-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%96%B8%EC%96%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90/
 
 # 📓 Go 역사
 2007년 3명의 구글의 개발자들이 C++의 복잡성이 싫어 개발을 시작
